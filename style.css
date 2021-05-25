@@ -1,0 +1,23 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	color: rgb(39, 3, 57);
+	background: linear-gradient(to right, rgb(64, 18, 85), rgb(153, 116, 170));
+}
+
+h1 {
+	font-size: 4.5rem;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	letter-spacing: 0.1em;
+}
+
+/*.randomButton {
+	font-size: 0.7em;
+}*/

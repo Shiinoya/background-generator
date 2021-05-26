@@ -4,7 +4,7 @@
   "description": "Background Generator",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "browserify script.js > bundle.js && live-server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Shiinoya/background-generator/issues"
   },
-  "homepage": "https://github.com/Shiinoya/background-generator#readme"
+  "homepage": "https://github.com/Shiinoya/background-generator#readme",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "lodash": "^4.17.21"
+  }
 }
